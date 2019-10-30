@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/con"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#E5FFFE">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Connected "
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_weight="0.2"
+        android:id="@+id/textView3"
+        android:layout_marginTop="37dp" />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:id="@+id/refresh"
+        android:textStyle="bold"
+        android:layout_weight="0.2"
+
+        android:background="@drawable/refresh"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/dev"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Device:"
+            android:textSize="35dp"
+            android:id="@+id/textView31" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="AIM0101 "
+            android:textSize="35dp"
+            android:id="@+id/textView44" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button_next"
+        android:textStyle="bold"
+        android:layout_weight="0.2"
+        android:text="Next"
+        android:background="@drawable/btn"
+        android:textSize="25dp" />
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aim.aiminmed.server.aimarm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sphin_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="aim.aiminmed.server.aimarm.register"
+            android:theme="@style/AppTheme.NoActionBarTitle"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="aim.aiminmed.server.aimarm.MainActivity_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="aim.aiminmed.server.aimarm.Demo_exp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="aim.aiminmed.server.aimarm.Patient_Details"
+            android:theme="@style/AppTheme.NoActionBarTitle"
+            android:screenOrientation="portrait" />
+        <activity android:name="aim.aiminmed.server.aimarm.newexiting" />
+        <activity android:name="aim.aiminmed.server.aimarm.test_gui" />
+        <activity
+            android:name="aim.aiminmed.server.aimarm.current_ps"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="aim.aiminmed.server.aimarm.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="aim.aiminmed.server.aimarm.Demo_intro"
+            android:label="@string/title_activity_demo_intro"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="aim.aiminmed.server.aimarm.demo_current_ps"
+            android:label="@string/title_activity_demo_intro"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="aim.aiminmed.server.aimarm.Exp_ps"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="aim.aiminmed.server.aimarm.Video_view"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="aim.aiminmed.server.aimarm.wifi" />
+
+
+        <activity
+            android:name="aim.aiminmed.server.aimarm.report"
+            android:label="@string/title_activity_report"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="aim.aiminmed.server.aimarm.video_back"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="aim.aiminmed.server.aimarm.mp_graph"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBarTitle"></activity>
+
+        <activity
+            android:name="aim.aiminmed.server.aimarm.mp_graph_init"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBarTitle"></activity>
+
+        <activity
+            android:name="aim.aiminmed.server.aimarm.biofeed_main"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name="aim.aiminmed.server.aimarm.biofeed_init"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBarTitle">
+
+
+        </activity>
+
+        <activity
+            android:name="aim.aiminmed.server.aimarm.full_report"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarTitle"
+            >
+
+        </activity>
+        <activity
+            android:name="aim.aiminmed.server.aimarm.full_bio_report"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarTitle">
+
+        </activity>
+        <activity
+            android:name="aim.aiminmed.server.aimarm.pic_report"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="aim.aiminmed.server.aimarm.time_select"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarTitle">
+
+        </activity>
+        <activity
+            android:name="aim.aiminmed.server.aimarm.biofeed_report"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

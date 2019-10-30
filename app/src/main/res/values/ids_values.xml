@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="air_btn" type="id"/>
+    <item name="insert_btn" type="id"/>
+    <item name="squeeze_btn" type="id"/>
+    <item name="cough_btn" type="id"/>
+    <item name="exit_btn" type="id"/>
+
+    <item name="id_summary" type="id"/>
+    <item name="id_dev" type="id"/>
+    <item name="id_prob" type="id"/>
+    <item name="id_step1_text" type="id"/>
+    <item name="id_intro" type="id"/>
+    <item name="id_web" type="id"/>
+</resources>

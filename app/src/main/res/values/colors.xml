@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Violate">#864ae7</color>
+    <color name="Black">#080808</color>
+    <color name="Lighter_blue">#E9F0F9</color>
+    <color name="Light_coffee">#E6E3D1</color>
+    <color name="White">#ffffff</color>
+    <color name="Pink">#f5a8e6</color>
+
+    <color name="blue">#0000ff</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue_light">#599CFF</color>
+    <color name="blue_cream">#00CCFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="red_logo">#d7191f</color>
+    <color name="blue_border">#1976D2</color>
+    <color name="button_border">#284672</color>
+    <color name="white">#ffffff</color>
+    <color name="LiteGreen">#75F528</color>
+    <color name="yellow">#ffff00</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

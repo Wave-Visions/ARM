@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:id="@+id/textView21"
+            android:textAlignment="center"
+            android:gravity="center"
+
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="new patitent"
+            android:id="@+id/newpatitent1"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Exiting Patitent"
+            android:id="@+id/button3"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            android:layout_marginTop="50dp" />
+    </LinearLayout>
+</LinearLayout>

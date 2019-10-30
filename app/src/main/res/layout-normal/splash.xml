@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="50dp"
+    tools:context="aim.aiminmed.server.aimarm.Splash"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login_back1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp"
+        android:layout_weight="1.2">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="logo"
+            android:src="@drawable/aim" />
+
+
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/editText9"
+        android:text="@string/com_name"
+        android:gravity="center_horizontal"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.9" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_weight="1.6">
+
+        <info.hoang8f.widget.FButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Ragister"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            fbutton:buttonColor="@color/fbutton_color_silver"
+            fbutton:shadowEnabled="true"
+            android:id="@+id/reg" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

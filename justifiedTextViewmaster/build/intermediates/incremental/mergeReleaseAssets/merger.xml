@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\New folder\test\ARM1\justifiedTextViewmaster\src\main\assets"/><source path="D:\New folder\test\ARM1\justifiedTextViewmaster\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\New folder\test\ARM1\justifiedTextViewmaster\src\release\assets"/></dataSet></merger>

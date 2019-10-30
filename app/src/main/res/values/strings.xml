@@ -1,0 +1,45 @@
+<resources>
+    <string name="com_name">MedTech Devices</string>
+    <string name="com_name1">Med</string>
+    <string name="com_name2">Tech Devices</string>
+    <string name="dev_name">SphinctoPress</string>
+    <string name="app_name">SphinctoPress</string>
+    <string name="titile1">Device</string>
+    <string name="title_login">Login</string>
+    <string name="Graph_activity">Sample Graph</string>
+    <string name="Graph">Graph</string>
+    <string name="select_patitent">New Or Old Patitent</string>
+    <string name="Enter_detail">Patitent\'s Detail</string>
+    <string name="title_activity_demo_intro">Demo</string>
+    <string name="Summary">Aeno Rectum Menometer</string>
+
+    <string name="title_activity_report">Report</string>
+    <string name="share_button">Share</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="info_title">Alert</string>
+    <string name="info_description_sqz">Would you like to go through again from Squeeze mode</string>
+    <string name="info_description_rlx">Would you like to go through again from Relax mode</string>
+    <string name="note1">The SPHINCTER PRESSURE values of interest, are,</string>
+    <string name="note2">\u2022 RESTING - applied by the un-contracted muscle</string>
+    <string name="note3">\u2022 SQUEEZE - maximum force applied during the test</string>
+    <string name="note4">\u2022 AVERAGE SQUEEZE - Endurance of Squeeze, average, after 10 secs of Squeeze</string>
+    <string name="note5">\u2022 COUGH ANAL REFLEX - to ascertain, the Anal Contraction, during a Cough</string>
+    <string name="note6">Normal Range of Sphincter Pressure Values</string>
+
+
+    <string name="note7">1. The test will go through various modes, like, REST, SQUEEZE, and COUGH ANAL REFLEX</string>
+    <string name="note8">2. User can Select the Time, for each Test, </string>
+    <string name="note9">3. User can also Repeat modes ( SQUEEZE and COUGH)</string>
+    <string name="note10">4. Once the Test is started, User has to go through, the REST, SQUEEZE, and COUGH ANAL REFLEX modes</string>
+    <string name="note11">5. User can only skip the Repeat, SQUEEZE, and COUGH modes</string>
+
+
+    <string name="note12">1. To determine, the RESTING PRESSURE, wait for 10 seconds after inserting the SENSOR.</string>
+    <string name="note13">2. Press, the REST key, a Green graph, showing the RESTING pressure values, will appear.</string>
+    <string name="note14">3. The next, measure, SQUEEZE PRESSURE, will be chosen automatically.</string>
+    <string name="note15">4. Ask the Patient, to contract the Sphincter muscle to a maximum of 10 secs and then Press the SQUEEZE key, a RED GRAPH with values will appear. </string>
+    <string name="note16">5. The device also calculates, the AVERAGE SQUEEZE pressure over 10 secs</string>
+    <string name="note17">6. Finally, Press the COUGH REFLEX Key, and ask the Patient to COUGH, a YELLOW GRAPH with Values will appear</string>
+
+</resources>

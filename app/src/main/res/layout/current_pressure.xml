@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login_back1"
+    android:id="@+id/process_lay">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Pressure "
+            android:id="@+id/textupper"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="330dp"
+            android:layout_height="300dp"
+            android:id="@+id/graph1" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first"
+
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/scnd"
+
+
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Down timer for 30 sec  "
+            android:id="@+id/textimer"
+
+
+            android:textSize="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="5dp"/>
+
+
+
+
+</LinearLayout>

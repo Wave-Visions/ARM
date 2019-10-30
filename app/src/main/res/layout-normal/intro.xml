@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_back1"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/lay_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/lay_1"
+        android:background="#e0ebfa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+
+        android:padding="5dp"
+        android:layout_weight="1.4">
+
+
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/VerticalScrollView1"
+            android:background="#bbd1f1"
+            android:layout_marginTop="5dp"
+            android:layout_weight="3">
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/lay_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+
+        android:padding="5dp">
+
+        </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/horizontalScrollView"
+
+        android:layout_marginTop="5dp"
+        android:layout_weight="8">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Preparation"
+                android:layout_marginLeft="1dp"
+
+                android:background="#e1ebf7"
+                android:id="@+id/step1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Communication"
+                android:background="#e1ebf7"
+                android:layout_marginLeft="5dp"
+
+                android:id="@+id/step2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Operating"
+
+                android:background="#e1ebf7"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/step3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Indications"
+                android:layout_marginLeft="5dp"
+
+                android:background="#e1ebf7"
+                android:id="@+id/step4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Result"
+                android:background="#e1ebf7"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+
+                android:id="@+id/step5" />
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>
